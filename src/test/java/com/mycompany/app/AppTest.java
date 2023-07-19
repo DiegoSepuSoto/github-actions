@@ -24,4 +24,9 @@ public class AppTest {
   public void shouldNotGetTrianguloEquilatero() {
     assertEquals("no es triangulo", App.triangulo(0, 1, 2));
   }
+
+  @Test
+  public void shouldBreakPipeline() {
+    assertEquals("isoseles", App.triangulo(0, 0, 1));
+  }
 }
