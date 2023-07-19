@@ -27,6 +27,6 @@ public class AppTest {
 
   @Test
   public void shouldBreakPipeline() {
-    assertEquals("isoseles", App.triangulo(0, 0, 1));
+    assertEquals("no es triangulo", App.triangulo(0, 0, 1));
   }
 }
